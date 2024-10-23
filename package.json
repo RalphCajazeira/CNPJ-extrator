@@ -1,0 +1,16 @@
+{
+  "name": "cnpj-extrator",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Este projeto permite extrair informações de empresas a partir do site da Receita Federal do Brasil, após a validação manual do reCAPTCHA. Os dados são extraídos diretamente da página e salvos em um arquivo JSON na pasta `CNPJ_extraidos`.",
+  "main": "extrairCNPJ.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^23.6.0"
+  }
+}

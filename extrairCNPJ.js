@@ -12,7 +12,7 @@ const __dirname = path.dirname(__filename);
 // Função principal
 (async () => {
   try {
-    const cnpj = '24.276.421/0001-08'; // Substitua pelo CNPJ desejado
+    const cnpj = '00.000.000/0001-00'; // Substitua pelo CNPJ desejado
     const cnpjSemPontuacao = cnpj.replace(/[^\d]/g, '');
 
     // Inicializa o navegador
